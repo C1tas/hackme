@@ -133,8 +133,8 @@ $color6: #aa9e5c;
 		$weight: ( ( $i - 1 ) / $stepnum ) * 100;
 		$colour_mix: mix($color_b, rgba($color_a, $opacity), $weight);
 		$seperator: null;
-		@if($i != $stepnum){ 
-			$seperator: #{','}; 
+		@if($i != $stepnum){
+			$seperator: #{','};
 		}
 		$gradient_steps: append( #{$gradient_steps}, #{$i}px #{$i}px $colour_mix $seperator );
  }
@@ -181,7 +181,7 @@ body {
   height: 340px;
   margin: 0 30px 30px 0;
   perspective: 1000;
-  
+
   &:first-child {
     .card__front {
       background: $color1;
@@ -190,7 +190,7 @@ body {
       text-shadow: longshadow(darken($color1, 15%),$color1,100, 0.8);
     }
   }
-  
+
   &:nth-child(2) {
      .card__front {
       background: $color2;
@@ -199,7 +199,7 @@ body {
       text-shadow: longshadow(darken($color2, 15%),$color2,100, 0.8);
     }
   }
-  
+
   &:nth-child(3) {
     margin-right: 0;
      .card__front {
@@ -209,7 +209,7 @@ body {
       text-shadow: longshadow(darken($color3, 15%),$color3,100, 0.8);
     }
   }
-  
+
   &:nth-child(4) {
      .card__front {
       background: $color4;
@@ -218,7 +218,7 @@ body {
       text-shadow: longshadow(darken($color4, 15%),$color4,100, 0.8);
     }
   }
-  
+
   &:nth-child(5) {
      .card__front {
       background: $color5;
@@ -227,7 +227,7 @@ body {
       text-shadow: longshadow(darken($color5, 15%),$color5,100, 0.8);
     }
   }
-  
+
   &:nth-child(6) {
      .card__front {
       background: $color6;
@@ -236,17 +236,17 @@ body {
       text-shadow: longshadow(darken($color6, 15%),$color6,100, 0.8);
     }
   }
-  
+
   &:last-child {
     margin-right: 0;
   }
-  
+
   &__flipper {
     cursor: pointer;
     transform-style: preserve-3d;
     @include easeOut;
   }
-  
+
   &__front,
   &__back {
     position: absolute;
@@ -256,13 +256,13 @@ body {
     width: 100%;
     height: 340px;
   }
-  
+
   &__front {
     transform: rotateY(0);
     z-index: 2;
     overflow: hidden;
   }
-  
+
   &__back {
     transform: rotateY(180deg) scale(1.1);
     background: lighten(black, 8);
@@ -271,7 +271,7 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 20px rgba(black, 0.3);
-    
+
     span {
       position: absolute;
       top: 50%;
@@ -279,33 +279,33 @@ body {
       transform: translate(-50%, -50%);
     }
   }
-  
+
   &__name {
     font-size: 32px;
     line-height: 0.9;
     font-weight: 700;
-    
+
     span {
       font-size: 14px;
     }
   }
-  
+
   &__num {
     font-size: 100px;
     margin: 0 8px 0 0;
     font-weight: 700;
-    
+
     @media (max-width: 700px) {
       font-size: 70px;
     }
   }
-  
+
   @media (max-width: 700px) {
     width: 100%;
     height: 290px;
     margin-right: 0;
     float: none;
-    
+
     .card__front,
     .card__back {
       height: 290px;
