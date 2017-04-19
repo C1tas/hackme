@@ -1,106 +1,30 @@
 ---
 layout: index
 ---
-
-# test page
-
-# This is the index page it will be shwo as well as possiable
-<ul>
+<div class="container">
   {% for post in site.posts %}
-    <li id="ever_card">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <div class="column">
+    <div class="demo-title">Normal</div>
+      <!-- Post-->
+      <div class="post-module">
+        <!-- Thumbnail-->
+        <div class="thumbnail">
+          <div class="date">
+            <div class="day">27</div>
+            <div class="month">Mar</div>
+          </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg">
+        </div>
+        <!-- Post Content-->
+        <a href="{{ post.url }}">
+          <div class="post-content">
+            <div class="category">Photos</div>
+            <h1 class="title">{{ post.title }}</h1>
+            <h2 class="sub_title">The city that never sleeps.</h2>
+            <p class="description" style="display: none; height: 100px; opacity: 1;">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+            <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+          </div>
+        </a>
+      </div>
+    </div>
   {% endfor %}
-</ul>
-
-<main>
-  <h1>Ettrics</h1>
-  <p>Google Now inspired info cards.</p>
-  <p><a href="http://twitter.com/ettrics"><i class="fa fa-twitter"></i></a></p>
-</main>
-<ul id="card">
-  <li class="card">
-    <div class="card__flipper">
-      <div class="card__front">
-        <p class="card__name"><span>Tony</span><br>Romo</p>
-        <p class="card__num">9</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#514d9b" stroke-width="35"  />
-        </svg>
-        <span>113.2</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-         <p class="card__name"><span>Aaron</span><br>Rodgers</p>
-        <p class="card__num">12</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#35a541" stroke-width="35"  />
-        </svg>
-        <span>112.2</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Ben</span><br>Roethlisberger</p>
-        <p class="card__num">7</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#bdb235" stroke-width="35"  />
-        </svg>
-        <span>103.3</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Peyton</span><br>Manning</p>
-        <p class="card__num">18</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#db6623" stroke-width="35"  />
-        </svg>
-        <span>101.5</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Tom</span><br>Brady</p>
-        <p class="card__num">12</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#3e5eb3" stroke-width="35"  />
-        </svg>
-        <span>97.4</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Drew</span><br>Brees</p>
-        <p class="card__num">9</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#aa9e5c" stroke-width="35"  />
-        </svg>
-        <span>97.0</span>
-      </div>
-    </div>
-  </li>
-</ul>
+</div>
