@@ -1,100 +1,176 @@
 ---
 layout: index
 ---
+<div class="site__wrapper">
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/608?image=200" alt="">
 
-<ul id="card">
-  {% for post in site.posts %}
-    <li class="card">
-      <div class="card_flipper">
-        <div class="card__front">
-          <p class="card__name"><span>{{ post.title }}</span></p>
-        </div>
-      </div>
-    </li>
-  {% endfor %}
+              <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay-content">
+                <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> UI/UX</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
 
-  <li class="card">
-    <div class="card__flipper">
-      <div class="card__front">
-        <p class="card__name"><span>Tony</span><br>Romo</p>
-        <p class="card__num">9</p>
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>    
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#514d9b" stroke-width="35"  />
-        </svg>
-        <span>113.2</span>
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/608?image=123" alt="">
+
+              <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay-content">
+                  <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> Html5/Css3</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 min ago</a></li>
+                  </ul>
+
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-         <p class="card__name"><span>Aaron</span><br>Rodgers</p>
-        <p class="card__num">12</p>
+
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/300?image=100" alt="">
+
+              <div class="card__overlay card__overlay--blue">
+                <div class="card__overlay-content">
+                  <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> UI/UX</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#35a541" stroke-width="35"  />
-        </svg>
-        <span>112.2</span>
+
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/608?image=123" alt="">
+
+              <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay-content">
+                  <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> Html5/Css3</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 min ago</a></li>
+                  </ul>
+
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Ben</span><br>Roethlisberger</p>
-        <p class="card__num">7</p>
+
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/300?image=200" alt="">
+
+              <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay-content">
+                <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> UI/UX</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>    
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#bdb235" stroke-width="35"  />
-        </svg>
-        <span>103.3</span>
+
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/300?image=300" alt="">
+
+              <div class="card__overlay card__overlay--indigo">
+                <div class="card__overlay-content">
+                  <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> Tutorials</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>   
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Peyton</span><br>Manning</p>
-        <p class="card__num">18</p>
+
+      <div class="grid">
+          <div class="card">
+            <div class="card__image">
+              <img src="https://unsplash.it/400/300?image=400" alt="">
+
+              <div class="card__overlay card__overlay--blue">
+                <div class="card__overlay-content">
+                  <ul class="card__meta">
+                    <li><a href="#0"><i class="fa fa-tag"></i> Tutorials</a></li>
+                    <li><a href="#0"><i class="fa fa-clock-o"></i> 2 days ago</a></li>
+                  </ul>
+
+                  <a href="#0" class="card__title">How to create a card based article with HTML5 &amp; CSS3</a>
+
+                  <ul class="card__meta card__meta--last">
+                    <li><a href="#0"><i class="fa fa-user"></i> Mithicher</a></li>
+                    <li><a href="#0"><i class="fa fa-facebook-square"></i> Share</a></li>
+                  </ul>   
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>		
+
+      <div class="site__info">
+        <p>Placeholder images are served from <a target="_blank" href="https://unsplash.it">www.unsplash.it</a></p>
+        <p>Handcrafted by <a target="_blank" href="http://mithicher.github.io">Mithicher</a>. Tweet me on <a target="_blank" href="https://twitter.com/mithicher">Twitter</a></p>
       </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#db6623" stroke-width="35"  />
-        </svg>
-        <span>101.5</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Tom</span><br>Brady</p>
-        <p class="card__num">12</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#3e5eb3" stroke-width="35"  />
-        </svg>
-        <span>97.4</span>
-      </div>
-    </div>
-  </li>
-  <li class="card">
-    <div class="card__flipper">
-       <div class="card__front">
-        <p class="card__name"><span>Drew</span><br>Brees</p>
-        <p class="card__num">9</p>
-      </div>
-      <div class="card__back">
-        <svg height="180" width="180">
-          <circle cx="90" cy="90" r="55" stroke="#aa9e5c" stroke-width="35"  />
-        </svg>
-        <span>97.0</span>
-      </div>
-    </div>
-  </li>
-</ul>
+</div><!-- @end site__wrapper -->
