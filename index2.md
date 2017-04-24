@@ -5,7 +5,7 @@ layout: index
       <div class="grid">
           <div class="card">
             <div class="card__image">
-              <img src="https://unsplash.it/400/608?image=200" alt="">
+              <img src="http://localhost:8000/pic/show/400/608/1" alt="">
 
               <div class="card__overlay card__overlay--indigo">
                 <div class="card__overlay-content">
