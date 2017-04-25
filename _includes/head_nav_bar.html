@@ -1,39 +1,43 @@
 <nav id="head_nav_bar">
-    <ul>
-        <li class="current-menu-item"><a href="#">Home</a></li>
-        <li><a href="#">Menu 1</a>
-            <ul>
-                <li><a href="#">Sub Menu 1</a></li>
-                <li><a href="#">Sub Menu 2</a>
+    <div class="row">
+        <div id="head_nav_bar" class="quarter">
+            <a href="{{ site.url }}">
+                <img id="head_nav_bar_img" src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/archlinux.svg" alt="Logo Menu Baptiste Villemur">
+            </a>
+        </div>
+
+        <div id="head_nav_bar" class="rest">
+            <i class="fa fa-bars"></i>
+
+            <div id="head_nav_bar" class="text-menu">
+
+                <div>
+                    <a href="{{ site.url }}/categories/">Categories</a>
                     <ul>
-                        <li><a href="#">Deep Menu 1</a>
-                            <ul>
-                                <li><a href="#">Sub Deep 1</a></li>
-                            </ul>
-                        </li>
                     </ul>
-                </li>
-            </ul>
-        </li>
-        <li><a href="#">Menu 2</a>
-            <ul>
-                <li><a href="#">Sub Menu 1</a></li>
-                <li><a href="#">Sub Menu 2</a></li>
-                <li><a href="#">Sub Menu 3</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Menu 3</a>
-            <ul>
-                <li class="dir"><a href="#">Sub Menu 1</a></li>
-                <li class="dir"><a href="#">Sub Menu 2</a>
+                </div>
+
+                <span class="slash">/</span>
+
+                <div>
+                    <a href="{{ site.url }}/tags/">Tags</a>
                     <ul>
-                        <li><a href="#">Category 1</a></li>
-                        <li><a href="#">Category 2</a></li>
                     </ul>
-                </li>
-                <li><a href="#">Sub Menu 3</a></li>
-            </ul>
-        </li>
-        <li><a href="about.html">About me</a></li>
-    </ul>
+                </div>
+
+                <span class="slash">/</span>
+
+                <div><a href="{{ site.url }}/404.html">Search</a></div>
+
+                <span class="slash">/</span>
+
+                <div>
+                    <a href="{{ site.url }}/about.html">Aboutme</a>
+                    <ul>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </nav>

@@ -26,13 +26,7 @@ layout: index
                 <div class="card__overlay card__overlay--indigo">
                 <div class="card__overlay-content">
                 <ul class="card__meta">
-                    <li>
-                        {% for tag in post.tags %}
-                        <a href="{{ site.url }}/tags/">
-                            <i class="fa fa-tag"></i>{{ tag }}
-                        </a>
-                        {% endfor %}
-                    </li>
+                    <li><a href="#0"><i class="fa fa-tag"></i>{{ post.tags }}</a></li>
                     <li><a href="#0"><i class="fa fa-clock-o"></i>{{ post.date | date: "%-d/%B" }}</a></li>
                     </ul>
 
@@ -51,7 +45,7 @@ layout: index
     {% endfor %}
 
     <div class="site__info">
-    <p>A card theme by <a target="_blank" href="https://c1tas.com">C1tas</a></p>
-    <p>Fork me<a target="_blank" href="https://github.com/c1tas"> Github</a>. Tweet me on <a target="_blank" href="https://twitter.com/c1tas">Twitter</a></p>
+    <p>Placeholder images are served from <a target="_blank" href="https://unsplash.it">www.unsplash.it</a></p>
+    <p>Handcrafted by <a target="_blank" href="http://mithicher.github.io">Mithicher</a>. Tweet me on <a target="_blank" href="https://twitter.com/mithicher">Twitter</a></p>
     </div>
 </div><!-- @end site__wrapper -->

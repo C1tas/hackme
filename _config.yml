@@ -1,13 +1,16 @@
-title: Your awesome title
-email: your-email@domain.com
+title: Some thing goes by
+email: wangyuhengs@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is my site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: c1tas
+github_username:  c1tas
+
+permalink:   /:categories/:title/
+
+
+remoteimg: https://django.c1tas.com/pic
 
 # Build settings
 markdown: kramdown
@@ -22,6 +25,10 @@ exclude:
 
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
 
 highlighter: rouge
